@@ -1,0 +1,50 @@
+Logs
+
+Iniciados em 1000 (usuário)
+
+1001 - Erro conectar banco de dados
+1002 - Erro ao cadastrar usuário
+1003 - Erro ao logar usuário
+1004 - Usuário cadastrado com sucesso
+1005 - Perfil cadastrado com sucesso
+1006 - Erro ao atualizar perfil
+1007 - Erro ao carregar perfil
+1008 - Perfil atualizado com sucesso
+1009 - Erro ao cadastrar perfil
+1010 - e-Mail já cadastrado
+1011 - Perfil existente
+
+Iniciados em 2000 (lojas)
+
+2001 - Erro conectar banco de dados
+2002 - Sem lojas visitadas
+
+Iniciados em 3000 (pagamentos)
+
+3001 - Erro conectar banco de dados
+3002 - Erro ao tratar pagamento
+3003 - Pagamento effetuado com sucesso
+3004 - Falha no pagamento
+3005 - Pagamento pendente
+
+Iniciados em 4000 (listas em geral)
+
+4001 - Erro conectar banco de dados
+4002 - Erro ao carregar vagas
+
+Iniciados em 5000 (tokens)
+
+5001 - Erro conectar banco de dados
+5002 - Token atualizado com sucesso
+5003 - Erro ao registrar token
+5004 - Token já utilizado
+5005 - Token não registrado
+5006 - Token cadastrado com sucesso
+5007 - Erro ao atualizar token
+
+Iniciados em 6000 (ordem serviço)
+
+6001 - Erro conectar banco de dados
+6002 - Erro ao cadastrar OS
+6003 - Erro ao carregar OS
+6004 - OS cadastrada com sucesso
