@@ -33,6 +33,7 @@ if($_POST["acao"] == "cadastroUsuario"){
 	$username = $_POST['username'];
 	$useremail = $_POST['useremail'];
 	$userpass = $_POST['userpass'];
+	$lojaid = $_POST['lojaid'];
 	$to = $_POST['to'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
@@ -42,7 +43,7 @@ if($_POST["acao"] == "cadastroUsuario"){
  		die('Log1001');
 	}
 
-	$sql = "INSERT INTO usuarios (username, useremail, userpass) VALUES ('$username', '$useremail', '$userpass')"; 
+	$sql = "INSERT INTO usuarios (username, useremail, userpass, lojaid) VALUES ('$username', '$useremail', '$userpass', '$lojaid')"; 
 
 	mysqli_query($strcon,$sql) or die("Log1002");
 	mysqli_close($strcon);

@@ -48,3 +48,5 @@ Iniciados em 6000 (ordem serviço)
 6002 - Erro ao cadastrar OS
 6003 - Erro ao carregar OS
 6004 - OS cadastrada com sucesso
+
+Iniciados em 7000 (categorias)
